@@ -3,13 +3,22 @@ body {
     color: antiquewhite;
 }
 
+#content {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
 nav {
     display: flex;
+    margin-left: 10px;
 }
 
 #navLogo {
     height: 220px;
     width: auto;
+    border-radius: 10%;
+    margin-top: 10px;
 }
 
 nav ul {
@@ -21,4 +30,50 @@ nav ul {
 nav ul li {
     flex-grow: 1;
     font-size: 2rem;
+    font-weight: bolder;
+}
+
+
+#homePic1 {
+    height: 600px;
+    width: auto;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    z-index: -1;
+}
+
+#homePic2 {
+    height: 600px;
+    width: auto;
+    position: absolute;
+    top: 360px;
+    left: 550px;
+    z-index: -2;
+}
+
+.address {
+    position: absolute;
+    top: 100px;
+    left: 550px;
+    font-size: 1.5rem;
+}
+
+.sloganHeading {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4.5rem;
+    text-align: justify;
+}
+
+.quote {
+    font-size: 2rem;
+    max-width: 400px;
+    margin-left: 100px;
+    margin-top: 200px;
+    text-align: center;
+    font-style: italic;
 }
