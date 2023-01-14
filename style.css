@@ -57,24 +57,23 @@ nav ul li:hover {
     cursor: pointer;
 }
 
-#homePic1 {
+#homePic1, #homePic2 {
     height: 600px;
     width: auto;
     position: absolute;
+    z-index: -1;
+}
+
+#homePic1 {
     top: 0px;
     left: 100px;
-    z-index: -1;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
 #homePic2 {
-    height: 600px;
-    width: auto;
-    position: absolute;
     top: 360px;
     left: 550px;
-    z-index: -2;
     border-radius: 10px;
 }
 
@@ -108,3 +107,32 @@ h1 {
     font-style: italic;
 }
 
+@media (max-width: 950px) {
+    #homePic1, #homePic2 {
+        height: 400px;
+    }
+
+    #navLogo {
+        height: 100px;
+    }
+
+    .sloganHeading {
+        margin-top: 200px;
+    }
+
+    #homePic2 {
+        top: 450px;
+        left: 400px;
+        border-radius: 10px;
+    }
+
+    .address {
+        left: 400px;
+    }
+
+    .quote {
+        margin-top: 50px;
+        margin-left: 20px;
+        max-width: 350px;
+    }
+}
