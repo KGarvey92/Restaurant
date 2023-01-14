@@ -4,7 +4,7 @@ body {
 }
 
 #content {
-    max-width: 1200px;
+    max-width: 1080px;
     margin: 0 auto;
     position: relative;
 }
@@ -135,4 +135,43 @@ h1 {
         margin-left: 20px;
         max-width: 350px;
     }
+}
+
+@media (max-width: 675px) {
+    #homePic1, #homePic2 {
+        height: 500px;
+        position: unset;
+        margin: 120px 50px 0px 50px;
+        border-radius: 10px;
+    }
+
+    #homePic2 {
+        margin-top: 20px;
+    }
+
+    nav {
+        position: fixed;
+    }
+
+    .sloganHeading {
+        margin-top: auto;
+        justify-content: left;
+        margin-left: 50px;
+    }
+
+    .address {
+        position: unset;
+        margin-left: 50px;
+    }
+
+    .quote {
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+
 }
