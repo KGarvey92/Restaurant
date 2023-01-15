@@ -95,6 +95,7 @@ nav ul li:hover {
 h1 {
     font-size: 4.5rem;
     text-align: justify;
+    text-shadow: -2px -2px 0 black;
 }
 
 .quote {
@@ -151,6 +152,10 @@ h1 {
 
     nav {
         position: fixed;
+    }
+
+    nav ul li {
+        font-size: 1.5rem;
     }
 
     .sloganHeading {
