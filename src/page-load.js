@@ -18,7 +18,7 @@ function createNav() {
     navMenu.innerText = "Menu";
     navList.appendChild(navMenu);
     const navContact = document.createElement("li");
-    navContact.innerText = "About";
+    navContact.innerText = "Contact";
     navList.appendChild(navContact);
     navElement.appendChild(navList);
 
