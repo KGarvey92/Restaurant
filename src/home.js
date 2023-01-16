@@ -1,5 +1,6 @@
 function loadHome() {
     const main = document.querySelector("main");
+    main.innerText = "";
     
     const pic1 = document.createElement("img");
     pic1.setAttribute("id", "homePic1");

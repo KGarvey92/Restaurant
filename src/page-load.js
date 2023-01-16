@@ -12,12 +12,15 @@ function createNav() {
     const navList = document.createElement("ul");
 
     const navHome = document.createElement("li");
+    navHome.setAttribute("id", "navHome");
     navHome.innerText = "Home";
     navList.appendChild(navHome);
     const navMenu = document.createElement("li");
+    navMenu.setAttribute("id", "navMenu"); 
     navMenu.innerText = "Menu";
     navList.appendChild(navMenu);
     const navContact = document.createElement("li");
+    navContact.setAttribute("id", "navContact");
     navContact.innerText = "Contact";
     navList.appendChild(navContact);
     navElement.appendChild(navList);
