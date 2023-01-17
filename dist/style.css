@@ -147,6 +147,49 @@ h1 {
     font-size: 1.5rem;
 }
 
+#contact {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;   
+}
+
+#restaurantImg {
+    height: 600px;
+    width: auto;
+}
+
+#contactHeading {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 2rem;
+    margin: 20px;
+    text-align: center;
+}
+
+.contactDetails {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+#socials img {
+    height: 40px;
+    width: auto;
+}
+
+#socials img:hover {
+    animation: wobble 0.8s ease-in-out;
+    cursor: pointer;
+}
+
 @media (max-width: 950px) {
     #homePic1, #homePic2 {
         height: 400px;
@@ -221,6 +264,10 @@ h1 {
 
     #menu {
         justify-items: center;
+    }
+
+    #restaurantImg {
+        height: 350px;
     }
 
 }
