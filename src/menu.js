@@ -30,6 +30,15 @@ function loadMenu() {
 
     const dumplings = createFood("Dumpling Soup", "images/dumpling-soup.jpg");
     menu.appendChild(dumplings);
+
+    const beefStew = createFood("Spicy Beef Stew", "images/beef-stew.jpg");
+    menu.appendChild(beefStew);
+
+    const springRolls = createFood("Vegetable Spring Rolls", "images/spring-rolls.jpg");
+    menu.appendChild(springRolls);
+
+    const garlicShrimp = createFood("Spicy Garlic Shrimp", "images/garlic-shrimp.jpg");
+    menu.appendChild(garlicShrimp);
     
     main.appendChild(menu);
 
