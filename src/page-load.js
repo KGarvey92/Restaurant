@@ -28,7 +28,6 @@ function createNav() {
     return navElement;
 }
 
-
 function loadPage() {
     const contentDiv = document.querySelector("#content");
     const nav = createNav();
